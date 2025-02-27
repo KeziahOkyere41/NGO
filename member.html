@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   </head>
   <body>
     
@@ -130,6 +132,15 @@
       button:hover {
           background-color: #218838;
       }
+
+      .note {
+            margin-top: 1rem;
+            color: #4a5568;
+            font-size: 0.875rem;
+            color: white;
+        }
+
+
   </style>
 
   <!-- Modal Popup -->
@@ -174,14 +185,83 @@
     			<h3 class="mb-3">Become a member</h3>
     			<form action="#" class="volunter-form">
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Name">
+              <input type="text" class="form-control" placeholder="First Name">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Email">
+              <input type="text" class="form-control" placeholder="Last Name">
             </div>
             <div class="form-group">
+              <input type="text" class="form-control" placeholder="Your Age">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Your Address">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Region">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="City">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Phone">
+            </div>
+            
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Occupation">
+            </div>
+            <div class="form-group" >
               <input type="date" class="form-control" placeholder="Date of birth">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Tribe">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="House Adress">
+              </div>
+
+              <div class="note">
+                <label>Marital Status:</label>
+                <div class="flex space-x-4">
+                    <label><input type="radio" name="marital_status"> Single</label>
+                    <label><input type="radio" name="marital_status"> Married</label>
+                    <label><input type="radio" name="marital_status"> Divorced</label>
+                    <label><input type="radio" name="marital_status"> Separated</label>
+                    <label><input type="radio" name="marital_status"> Partnered</label>
+                </div>
+            </div>
+            <h3 class="mb-3">Spouse/ Partner </h3>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Name">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Age">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Occupation">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Employer">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Names and Ages of Children">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Who Referred you">
+            </div>
+            <div class="note">
+              <label id="rules" >Rules and regulations apply</label>
+          </div>
+
+          <div class="note">
+            <p>NOTE: By signing this form you agreed and understand the terms and condition of GYIM as a member of GYIM if you join, you will 
+              contribute monthly dues in support of Ghana youth industrial movement (GYIM) building Ghana project #GhanaMustWork</p>
+        </div>
+            
+            
+
+              
               <!-- <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="Message"></textarea> -->
+
+              
             </div>
             <div class="form-group">
               <a href="#" class="btn btn-white py-3 px-5">Submit</a>
